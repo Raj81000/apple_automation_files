@@ -547,6 +547,8 @@ task :file_lawfairy_emails do |t|
     {sender:"samuelkasumu", subject:"", folderName:"Miscellaneous"}, ¬
     {sender:"@theconduit.com", subject:"", folderName:"Conduit"}, ¬
     {sender:"@caitlinmcfee.com", subject:"", folderName:"Caitlin"}, ¬
+    {sender:"caitlinmcfee@yahoo.co.uk", subject:"", folderName:"Caitlin"}, ¬
+    {sender:"vanessa.crasner@gmail.com", subject:"", folderName:"Business Development"}, ¬
     {sender:"@topos.institute", subject:"", folderName:"Topos"}, ¬
     {sender:"@fcdo.gov.uk", subject:"", folderName:"Government"}, ¬
     {sender:"@red-gate.com", subject:"", folderName:"Red-Gate"}, ¬
@@ -730,6 +732,7 @@ task :file_lawfairy_emails do |t|
     {sender:"@traverssmith.com", subject:"", folderName:"Travers"}, ¬
     {sender:"@Roarb2b.com", subject:"", folderName:"Speaking"}, ¬
     {sender:"meplafi@gmail.com", subject:"", folderName:"Moe Lafi"}, ¬
+    {sender:"baronarmahkwantreng@gmail.com", subject:"", folderName:"Friends"}, ¬
     {sender:"Pro Bono", subject:"", folderName:"Pro Bono"}, ¬
     {sender:"Support Through", subject:"", folderName:"Pro Bono"}, ¬
     {sender:"@adviceni.net", subject:"", folderName:"Pro Bono"}, ¬
@@ -966,6 +969,16 @@ task :file_icloud_emails do |t|
       {sender:"arbrown@cgsh.com", subject:"", folderName:"CG"}, ¬
       {sender:"vestd.com", subject:"", folderName:"Vestd"}, ¬
       {sender:"jobs-listings@linkedin.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@swanswaygarages.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@el.linkedin.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"trustpilot", subject:"", folderName:"Junk"}, ¬
+      {sender:"linkedin", subject:"", folderName:"Junk"}, ¬
+      {sender:"@fineartcommissions.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@oxfordprivatetravel.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@condenast.co.uk", subject:"", folderName:"Junk"}, ¬
+      {sender:"@savvacyprus.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@foundercatalyst.com", subject:"", folderName:"Junk"}, ¬
+      {sender:"@theenglishroom.com", subject:"", folderName:"Junk"}, ¬
       {sender:"@idr.co", subject:"", folderName:"Junk"}, ¬
       {sender:"hit-reply@linkedin.com", subject:"", folderName:"Junk"}, ¬
       {sender:"customercare@emails.net-a-porter.com", subject:"", folderName:"Junk"}, ¬
@@ -983,6 +996,7 @@ task :file_icloud_emails do |t|
       {sender:"David.Briggs@coutts.com", subject:"", folderName:"Coutts"}, ¬
       {sender:"coutts.com", subject:"", folderName:"Coutts"}, ¬
       {sender:"@lawfairy.com", subject:"", folderName:"LawFairy"}, ¬
+      {sender:"HScott-Masson@thenomadhotel.com", subject:"", folderName:"Personal"}, ¬
       {sender:"raj.panasar@lawfairy.com", subject:"", folderName:"Raj forwards"}, ¬
       {sender:"raj.panasar@hoganlovells.com", subject:"", folderName:"Raj forwards"}, ¬
       {sender:"raj.panasar@yahoo.com", subject:"", folderName:"Raj forwards"}, ¬
@@ -996,7 +1010,9 @@ task :file_icloud_emails do |t|
       {sender:"simranobhi@gmail.com", subject:"", folderName:"Simran"}, ¬
       {sender:"@sohohouse.com", subject:"", folderName:"Soho House"}, ¬
       {sender:"@smugmug.com", subject:"", folderName:"Smug Mug"}, ¬
+      {sender:"@cbp.dhs.gov", subject:"", folderName:"ESTA"}, ¬
       {sender:"coutts", subject:"", folderName:"Coutts"}, ¬
+      {sender:"@mckaywilliamson.com", subject:"", folderName:"McKay Williamson"}, ¬
       {sender:"Zayn Hussain", subject:"", folderName:"Quantinuum"}, ¬
       {sender:"@molten.vc", subject:"", folderName:"LawFairy"}, ¬
       {sender:"@lawworks.org.uk", subject:"", folderName:"LawFairy"}, ¬
@@ -1004,41 +1020,71 @@ task :file_icloud_emails do |t|
       {sender:"@shearman.com", subject:"", folderName:"LawFairy"}, ¬
       {sender:"anisaibrahim01@gmail.com", subject:"", folderName:"Anisa"}, ¬
       {sender:"@sra.org.uk", subject:"", folderName:"SRA"}, ¬
+      {sender:"paperlesspost", subject:"", folderName:"Paperless Post"}, ¬
+      {sender:"sr.hafeez@yahoo.co.uk", subject:"", folderName:"Mentoring"}, ¬
       {sender:"lawson_debbie@hotmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"smclinden@btinternet.com", subject:"", folderName:"Friends"}, ¬
       {sender:"julie@juliekimble.com", subject:"", folderName:"Friends"}, ¬
       {sender:"andrewjhurwitz@gmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"andyhurwitz@hotmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"laura@rosefielddc.com", subject:"", folderName:"Friends"}, ¬
+      {sender:"sjpcampbell@hotmail.co.uk", subject:"", folderName:"Friends"}, ¬
       {sender:"laura@thedivorcehub.co.uk", subject:"", folderName:"Friends"}, ¬
+      {sender:"dancoppel@hotmail.com", subject:"", folderName:"Friends"}, ¬
+      {sender:"betsy.gottlieb@gmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"Scott Senecal", subject:"", folderName:"Friends"}, ¬
       {sender:"Aseet Dalvi", subject:"", folderName:"Friends"}, ¬
-      {sender:"@kiddrapinet.co.uk", subject:"", folderName:"Ruksana"}, ¬
+      {sender:"ftorrigiani@gmail.com", subject:"", folderName:"Friends"}, ¬
+      {sender:"yara.badri@gmail.com", subject:"", folderName:"Friends"}, ¬
+      {sender:"caitlinmcfee@yahoo.co.uk", subject:"", folderName:"Friends"}, ¬
+      {sender:"caitlin@law-lifebalance.co.uk", subject:"", folderName:"Friends"}, ¬
+      {sender:"stuart.perowne@jabholdings.nl", subject:"", folderName:"Friends"}, ¬
+      {sender:"@medbc.co.uk", subject:"", folderName:"Personal"}, ¬
+      {sender:"vanessa.crasner@gmail.com", subject:"", folderName:"Business Development"}, ¬
+      {sender:"Zoe.Bucknell@kuberno.com", subject:"", folderName:"Tech Contacts"}, ¬
+      {sender:"@centralenglandlc.org.uk", subject:"", folderName:"Pro Bono"}, ¬
       {sender:"@gs.com", subject:"", folderName:"Goldman"}, ¬
+      {sender:"@lehs.org.uk", subject:"", folderName:"LEH"}, ¬
+      {sender:"@spgs.org", subject:"", folderName:"SPGS"}, ¬
       {sender:"@fedex.com", subject:"", folderName:"Shopping"}, ¬
+      {sender:"@reachsportshop.com", subject:"", folderName:"Shopping"}, ¬
+      {sender:"@bupa.com", subject:"", folderName:"Bupa"}, ¬
       {sender:"Kinga Turek", subject:"", folderName:"Ruksana"}, ¬
+      {sender:"@kiddrapinet.co.uk", subject:"", folderName:"Ruksana"}, ¬
+      {sender:"ruksana.broachi@me.com", subject:"", folderName:"Ruksana"}, ¬
       {sender:"broar012@rbwm.org.uk", subject:"", folderName:"Ruksana"}, ¬
       {sender:"ncrasner@crasnerconsulting.com", subject:"", folderName:"Friends"}, ¬
       {sender:"ncrasner@crasnercapital.com", subject:"", folderName:"Friends"}, ¬
       {sender:"mrporter.com", subject:"", folderName:"Mr Porter"}, ¬
+      {sender:"victor.benea@gmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"Safia Panasar", subject:"", folderName:"Safia"}, ¬
+      {sender:"apple", subject:"Your invoice", folderName:"Apple Receipts"}, ¬
       {sender:"@deloitte.com", subject:"", folderName:"Deloitte"}, ¬
+      {sender:"ssamiotis@dynamiccounsel.com", subject:"", folderName:"Business Development"}, ¬
+      {sender:"anna@gazellepartners.com", subject:"", folderName:"Business Development"}, ¬
       {sender:"james@apexlifestyle.co.uk", subject:"", folderName:"James Harfoot"}, ¬
+      {sender:"@bmwfs.co.uk", subject:"", folderName:"James Harfoot"}, ¬
+      {sender:"@minifs.co.uk", subject:"", folderName:"James Harfoot"}, ¬
       {sender:"drhornebilling@gmail.com", subject:"", folderName:"Maya"}, ¬
       {sender:"@stonebridge", subject:"", folderName:"Insurance"}, ¬
       {sender:"@klslaw.co.uk", subject:"", folderName:"Insurance"}, ¬
       {sender:"bniland@cgsh.com", subject:"", folderName:"Tax"}, ¬
       {sender:"jtwynam@cgsh.com", subject:"", folderName:"Tax"}, ¬
       {sender:"@placedobson.co.uk", subject:"", folderName:"Dobson"}, ¬
+      {sender:"@wolterskluwercloud.com", subject:"", folderName:"Dobson"}, ¬
+      {sender:"@lewagon.org", subject:"", folderName:"Le Wagon"}, ¬
       {sender:"simonmwalters@icloud.com", subject:"", folderName:"LawFairy"}, ¬
       {sender:"louise@aztec-interior-design.co.uk", subject:"", folderName:"Home"}, ¬
+      {sender:"@higginsongrey.com", subject:"", folderName:"Home"}, ¬
       {sender:"@hrsjoinery.co.uk", subject:"", folderName:"Home"}, ¬
       {sender:"mmacmillen@cgsh.com", subject:"", folderName:"Tax"}, ¬
       {sender:"@colmancoyle.com", subject:"", folderName:"Probate"}, ¬
       {sender:"lastpass.com", subject:"", folderName:"Tech"}, ¬
       {sender:"evernote.com", subject:"", folderName:"Evernote"}, ¬
+      {sender:"dse@docusign.net", subject:"", folderName:"DocuSign"}, ¬
       {sender:"application.support@ie.edu", subject:"", folderName:"References"}, ¬
       {sender:"jm@thedealteam.com", subject:"", folderName:"Business Development"}, ¬
+      {sender:"arvind.mathur88@gmail.com", subject:"", folderName:"Business Development"}, ¬
       {sender:"karina.litvack@gmail.com", subject:"", folderName:"Friends"}, ¬
       {sender:"gilead yeffett", subject:"", folderName:"Gilead"}, ¬
       {sender:"gilead@practica-ltd.com", subject:"", folderName:"Gilead"}, ¬
@@ -1046,9 +1092,9 @@ task :file_icloud_emails do |t|
       {sender:"Nikki Panasar", subject:"", folderName:"Nikki"}, ¬
       {sender:"safia.panasar@icloud.com", subject:"", folderName:"Safia"}, ¬
       {sender:"maya.panasar", subject:"", folderName:"Maya"}, ¬
-      {sender:"ruksana.broachi@me.com", subject:"", folderName:"Ruksana"}, ¬
       {sender:"Hannah Budd", subject:"", folderName:"Hannah Budd"}, ¬
-      {sender:"Kelly.Giambrone@keystonelaw.co.uk  ", subject:"", folderName:"Hannah Budd"}, ¬
+      {sender:"Kelly.Giambrone@keystonelaw.co.uk", subject:"", folderName:"Hannah Budd"}, ¬
+      {sender:"Victoria.Toy@keystonelaw.co.uk", subject:"", folderName:"Hannah Budd"}, ¬
       {sender:"hamdeepbhinder@gmail.com", subject:"", folderName:"Humpty"}, ¬
       {sender:"info@cgdp.com", subject:"", folderName:"Dentist"}, ¬
       {sender:"cambridgequantum.com", subject:"", folderName:"Quantinuum"}, ¬
@@ -1057,11 +1103,13 @@ task :file_icloud_emails do |t|
       {sender:"@toynbeehall.org.uk", subject:"", folderName:"Toynbee Hall"}, ¬
       {sender:"HODINKEE Shop", subject:"", folderName:"Hodinkee"}, ¬
       {sender:"@uk.ey.com", subject:"", folderName:"Tax"}, ¬
+      {sender:"porter.com", subject:"", folderName:"Porter"}, ¬
       {sender:"@net-a-porter.com", subject:"", folderName:"NAP"}, ¬
       {sender:"@ynap.com", subject:"", folderName:"NAP"}, ¬
       {sender:"justgiving.com", subject:"", folderName:"Charity"}, ¬
       {sender:"Tim.Quayle@matchesfashion.com", subject:"", folderName:"Matches"}, ¬
       {sender:"gchakim@yahoo.com", subject:"", folderName:"Friends"}, ¬
+      {sender:"xero.com", subject:"", folderName:"Xero"}, ¬
       {sender:"", subject:"DX20", folderName:"Audi"}¬
         }
           
